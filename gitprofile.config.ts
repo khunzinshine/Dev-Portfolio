@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'khunzinshine', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -52,14 +52,14 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio | Khun Zin Shine',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'khunzinshine',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,71 +69,103 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'khunzinshine@gmail.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'HTML5',
+    'CSS3',
     'JavaScript',
+    'TypeScript',
     'React.js',
+    'Next.js',
     'Node.js',
-    'Nest.js',
+    'Angular',
     'MySQL',
     'PostgreSQL',
+    'MongoDB',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
     'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Codigo - The Mobile App Company',
+      position: 'Frontend Developer',
+      from: 'November 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.codigo.co/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
+      company: 'City Holdings Limited',
+      position: 'Full Stack Developer',
+      from: 'January 2023',
+      to: 'October 2023',
+      companyLink: 'https://cityholdings.com.mm/',
+    },
+    {
+      company: 'AYA Bank - AYA Innovation Labs',
+      position: 'Frontend Developer',
+      from: 'March 2021',
+      to: 'December 2022',
+      companyLink: 'https://ayabank.com',
+    },
+    {
+      company: 'AYA Bank - AYA Innovation Labs',
+      position: 'QA Engineer',
+      from: 'March 2020',
+      to: 'Feburary 2021',
+      companyLink: 'https://ayabank.com',
+    },
+    {
+      company: 'Acroquest Myanmar Technology',
+      position: 'Web Developer - Internship',
+      from: 'May 2019',
+      to: 'July 2019',
       companyLink: 'https://example.com',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'The Complete Node.js Developer',
+      body: 'Udemy',
+      year: 'Feburary 2022',
+      link: 'https://www.udemy.com/certificate/UC-097158d9-a99e-410f-ad09-ac0344c7af02/',
+    },
+    {
+      name: 'React - The Complete Guide',
+      body: 'Udemy',
+      year: 'Feburary 2022',
+      link: 'https://www.udemy.com/certificate/UC-71d157ec-5846-4d1c-a656-5bb146ae269c/',
+    },
+    {
+      name: 'Mastering React',
+      body: 'Code with Mosh',
+      year: 'April 2021',
+      link: 'https://drive.google.com/file/d/1gdJ81DLmciB-zeQQsGzsq82HdiLimVwt/view',
+    },
+    {
+      name: 'The Agile Samurai Bootcamp',
+      body: 'Udemy',
+      year: 'September 2020',
+      link: 'https://www.udemy.com/certificate/UC-d5c43ada-00bd-4feb-b685-e12906115297/',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
+      institution: 'University of Computer Studies, Taunggyi',
+      degree: 'Bachelor of Computer Science',
+      from: '2014',
       to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
     },
   ],
   publications: [

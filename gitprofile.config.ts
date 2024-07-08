@@ -9,7 +9,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -53,7 +53,8 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio | Khun Zin Shine',
-    description: '',
+    description:
+      'Passionate about designing and developing innovative solutions while excelling at problem-solving. Proficient in JavaScript and Typescript, with expertise in frameworks like ReactJS, NextJS, and NodeJS. I have accumulated over 4 years of experience in software development, primarily in the digital banking/financial and retail groceries industries. I thrive on embracing new challenges and working with cutting-edge technologies.',
     imageURL: '',
   },
   social: {
@@ -75,7 +76,7 @@ const CONFIG = {
     skype: '',
     telegram: '',
     website: '',
-    phone: '',
+    phone: '+95 9788926700',
     email: 'khunzinshine@gmail.com',
   },
   resume: {
@@ -88,14 +89,18 @@ const CONFIG = {
     'JavaScript',
     'TypeScript',
     'React.js',
+    'Redux',
     'Next.js',
     'Node.js',
     'Angular',
+    'Tailwind',
+    'SASS',
     'MySQL',
     'PostgreSQL',
     'MongoDB',
     'Git',
-    'Tailwind',
+    'Firebase',
+    'AWS',
   ],
   experiences: [
     {
